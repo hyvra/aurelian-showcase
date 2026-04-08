@@ -632,8 +632,7 @@ export default function ShowcasePage() {
               <div className="flex flex-wrap gap-2">
                 {[
                   { label: "Resume", href: "/api/docs/anna-hervey-resume" },
-                  { label: "LinkedIn", href: "https://linkedin.com/in/carterhervey" },
-                  { label: "GitHub", href: "https://github.com/hyvra" },
+                  { label: "LinkedIn", href: "https://www.linkedin.com/in/annahervey" },
                   { label: "Contact", href: "mailto:acarterhervey@gmail.com" },
                 ].map(l => (
                   <a key={l.label} href={l.href} target={l.href.startsWith("http") ? "_blank" : undefined}
